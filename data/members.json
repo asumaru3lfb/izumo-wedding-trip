@@ -1,0 +1,79 @@
+{
+  "members": [
+    {
+      "id": "tatsuya",
+      "name": "須内達也",
+      "nickname": "たっちゃん",
+      "role": "新郎",
+      "team": "staying",
+      "car": "2号車",
+      "note": "9/13夜、倉吉駅にて仕事のため単独帰宅"
+    },
+    {
+      "id": "shumpei",
+      "name": "福住隼平",
+      "nickname": "しゅんぺー",
+      "role": "直帰班／1号車運転手候補",
+      "team": "direct_return",
+      "car": "1号車",
+      "note": "9/12朝、レンタカー受け取り担当"
+    },
+    {
+      "id": "kai",
+      "name": "越智魁人",
+      "nickname": "kai",
+      "role": "直帰班",
+      "team": "direct_return",
+      "car": "1号車",
+      "note": ""
+    },
+    {
+      "id": "hamaguchi",
+      "name": "濱口貴史",
+      "nickname": "はまぐち",
+      "role": "滞在班",
+      "team": "staying",
+      "car": "2号車",
+      "note": "表記ゆれ：濱口貴志／貴史（本人へ要確認）"
+    },
+    {
+      "id": "ochan",
+      "name": "大田尚人",
+      "nickname": "おーちゃん",
+      "role": "直帰班",
+      "team": "direct_return",
+      "car": "1号車",
+      "note": "表記ゆれ：大田尚人／太田尚人（本人へ要確認）"
+    },
+    {
+      "id": "bintoro",
+      "name": "びんとろ",
+      "nickname": "びんとろ",
+      "role": "滞在班",
+      "team": "staying",
+      "car": "2号車",
+      "note": "本名未確定"
+    },
+    {
+      "id": "asuka",
+      "name": "三好飛鳥",
+      "nickname": "あすか",
+      "role": "滞在班／2号車運転手候補",
+      "team": "staying",
+      "car": "2号車",
+      "note": "9/12朝、レンタカー受け取り担当"
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "label": "1号車",
+      "members": ["shumpei", "ochan", "kai"]
+    },
+    {
+      "id": "car2",
+      "label": "2号車",
+      "members": ["asuka", "tatsuya", "hamaguchi", "bintoro"]
+    }
+  ]
+}

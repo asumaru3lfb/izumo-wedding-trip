@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>須内達也 結婚式 in 島根｜旅行行程</title>
+<meta name="description" content="須内達也 結婚式 in 島根（出雲）9/12〜9/14 参列メンバー旅行行程サイト">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⛩️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Kosugi+Maru&family=M+PLUS+Rounded+1c:wght@800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="confetti-canvas-wrap" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-emoji">⛩️</span>
+      <span class="brand-text">
+        <span class="g g-blue">須</span><span class="g g-red">内</span><span class="g g-yellow">婚</span><span class="g g-blue">式</span><span class="g g-green">旅</span>
+      </span>
+    </a>
+    <button id="celebrate-btn" class="btn-confetti" type="button">🎉 祝う</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" id="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">SHIMANE WEDDING FES 2026</p>
+      <h1 class="hero-title meme-title">
+        <span class="meme-line">
+          <span class="meme-char" style="--c:var(--blue)">須</span><span class="meme-char" style="--c:var(--red)">内</span><span class="meme-char" style="--c:var(--yellow)">達</span><span class="meme-char" style="--c:var(--green)">也</span>
+        </span>
+        <span class="meme-line meme-line-sub">
+          <span class="meme-char" style="--c:var(--shu)">結</span><span class="meme-char" style="--c:var(--gold)">婚</span><span class="meme-char" style="--c:var(--blue)">式</span><span class="meme-char meme-in" style="--c:var(--red)">in</span><span class="meme-char" style="--c:var(--green)">島</span><span class="meme-char" style="--c:var(--yellow)">根</span>
+        </span>
+      </h1>
+      <p class="hero-date">2026.09.12 SAT － 09.14 MON　＠ 出雲大社</p>
+      <p class="hero-copy">たっちゃんの晴れ舞台を、5000人のファンと一緒に叫んで祝おう。<br class="pc-only">出雲・鳥取3日間、参列メンバー7人の旅行行程まるごと公開。</p>
+      <a href="#itinerary" class="hero-cta">行程をみる ↓</a>
+    </div>
+  </section>
+
+  <!-- ===== MEMBERS ===== -->
+  <section class="members" id="members">
+    <h2 class="section-title"><span class="g g-blue">M</span><span class="g g-red">E</span><span class="g g-yellow">M</span><span class="g g-blue">B</span><span class="g g-green">E</span><span class="g g-red">R</span><span class="g g-yellow">S</span></h2>
+    <p class="section-sub">参列メンバー 7名</p>
+    <div id="members-groups" class="members-groups"></div>
+  </section>
+
+  <!-- ===== ITINERARY ===== -->
+  <section class="itinerary" id="itinerary">
+    <h2 class="section-title">
+      <span class="g g-red">I</span><span class="g g-yellow">T</span><span class="g g-blue">I</span><span class="g g-green">N</span><span class="g g-red">E</span><span class="g g-yellow">R</span><span class="g g-blue">A</span><span class="g g-green">R</span><span class="g g-red">Y</span>
+    </h2>
+
+    <div class="tabs day-tabs" id="day-tabs" role="tablist" aria-label="日付を選択"></div>
+    <div class="tabs team-tabs" id="team-tabs" role="tablist" aria-label="班を選択" hidden></div>
+
+    <div class="itinerary-body" id="itinerary-body">
+      <div class="timeline-pane" id="timeline-pane">
+        <ol class="timeline" id="timeline-list"></ol>
+      </div>
+      <div class="map-pane" id="map-pane">
+        <div id="map"></div>
+        <p class="map-legend">
+          <span><i class="dot dot-confirmed"></i>確定行程</span>
+          <span><i class="dot dot-candidate"></i>観光候補地</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== OPEN ISSUES ===== -->
+  <section class="open-issues" id="open-issues">
+    <h2 class="section-title-sm">🚧 まだ決まってないこと</h2>
+    <ul id="open-issues-list" class="open-issues-list"></ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>須内達也 結婚式 in 島根 － 旅行行程Webサイト</p>
+  <p class="footer-sub">Generated with Claude Code / Hosted on GitHub Pages</p>
+</footer>
+
+<!-- Mobile fixed bottom nav -->
+<nav class="mobile-nav" id="mobile-nav"></nav>
+
+<!-- Detail modal -->
+<div class="modal-backdrop" id="modal-backdrop" hidden>
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" id="modal-close" type="button" aria-label="閉じる">×</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="assets/js/confetti.js"></script>
+<script src="assets/js/map.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

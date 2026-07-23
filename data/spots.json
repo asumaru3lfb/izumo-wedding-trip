@@ -1,0 +1,103 @@
+{
+  "spots": [
+    {
+      "id": "spot-adachi",
+      "name": "足立美術館",
+      "area": "島根県安来市",
+      "lat": 35.4386,
+      "lng": 133.3230,
+      "category": "museum",
+      "note": "庭園美術館"
+    },
+    {
+      "id": "spot-shinji",
+      "name": "宍道湖",
+      "area": "松江市〜出雲市",
+      "lat": 35.4433,
+      "lng": 132.9930,
+      "category": "nature",
+      "note": "夕景の名所"
+    },
+    {
+      "id": "spot-matsue",
+      "name": "松江城",
+      "area": "松江市",
+      "lat": 35.4785,
+      "lng": 133.0505,
+      "category": "history",
+      "note": "国宝天守"
+    },
+    {
+      "id": "spot-daisen",
+      "name": "大山",
+      "area": "鳥取県大山町",
+      "lat": 35.3703,
+      "lng": 133.5487,
+      "category": "nature",
+      "note": "中国地方最高峰"
+    },
+    {
+      "id": "spot-yaegaki",
+      "name": "八重垣神社",
+      "area": "松江市",
+      "lat": 35.4213,
+      "lng": 133.0810,
+      "category": "shrine",
+      "note": "縁結びスポット"
+    },
+    {
+      "id": "spot-yomotsu",
+      "name": "黄泉比良坂",
+      "area": "松江市東出雲町",
+      "lat": 35.4622,
+      "lng": 133.1533,
+      "category": "history",
+      "note": "神話の地"
+    },
+    {
+      "id": "spot-mizuki",
+      "name": "水木しげるロード",
+      "area": "鳥取県境港市",
+      "lat": 35.5389,
+      "lng": 133.2280,
+      "category": "sightseeing",
+      "note": "妖怪ブロンズ像"
+    },
+    {
+      "id": "spot-kaisendon",
+      "name": "境港海鮮丼",
+      "area": "鳥取県境港市",
+      "lat": 35.5389,
+      "lng": 133.2280,
+      "category": "food",
+      "note": "水木しげるロード周辺・店舗要選定"
+    },
+    {
+      "id": "spot-conan-museum",
+      "name": "青山剛昌記念館",
+      "area": "鳥取県北栄町",
+      "lat": 35.5219,
+      "lng": 133.7469,
+      "category": "museum",
+      "note": "名探偵コナン作者記念館"
+    },
+    {
+      "id": "spot-conan-road",
+      "name": "コナンロード",
+      "area": "鳥取県北栄町由良",
+      "lat": 35.5219,
+      "lng": 133.7469,
+      "category": "sightseeing",
+      "note": "記念館周辺・コナンモニュメント通り"
+    },
+    {
+      "id": "spot-kazenokurayoshi",
+      "name": "風の倉吉",
+      "area": "鳥取県倉吉市",
+      "lat": 35.429204,
+      "lng": 133.812526,
+      "category": "hotel",
+      "note": "9/13宿泊地"
+    }
+  ]
+}

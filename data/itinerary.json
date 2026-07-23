@@ -1,0 +1,274 @@
+{
+  "days": [
+    {
+      "id": "0912",
+      "date": "2026-09-12",
+      "weekday": "土",
+      "label": "9/12（土）挙式・披露宴・二次会",
+      "shortLabel": "9/12 挙式",
+      "teams": ["all"],
+      "events": [
+        {
+          "id": "0912-01",
+          "team": "all",
+          "time": "08:00頃",
+          "title": "レンタカー2台で出発",
+          "place": "大洲市",
+          "lat": 33.5058,
+          "lng": 132.5442,
+          "type": "depart",
+          "note": "福住・三好がレンタカー受け取り担当。1号車：福住／大田／越智、2号車：三好／須内／濱口／びんとろ",
+          "approx": true
+        },
+        {
+          "id": "0912-02",
+          "team": "all",
+          "time": "13:00",
+          "title": "ドーミーイン出雲 到着（荷物預かり・駐車）",
+          "place": "ドーミーイン出雲",
+          "lat": 35.3697,
+          "lng": 132.7565,
+          "type": "hotel",
+          "note": "座標は概算。要Geocoding確認",
+          "approx": true
+        },
+        {
+          "id": "0912-03",
+          "team": "all",
+          "time": "13:20",
+          "title": "電車で出雲大社へ（約40分）",
+          "place": "出雲市駅",
+          "lat": 35.3679,
+          "lng": 132.7576,
+          "type": "move",
+          "note": "",
+          "approx": true
+        },
+        {
+          "id": "0912-04",
+          "team": "all",
+          "time": "14:00",
+          "title": "出雲大社 到着",
+          "place": "出雲大社",
+          "lat": 35.4018,
+          "lng": 132.6853,
+          "type": "sightseeing",
+          "note": "",
+          "approx": false
+        },
+        {
+          "id": "0912-05",
+          "team": "all",
+          "time": "15:00",
+          "title": "挙式（遠くから見学）",
+          "place": "出雲大社",
+          "lat": 35.4018,
+          "lng": 132.6853,
+          "type": "ceremony",
+          "note": "5000人規模の大フィーバーで新郎新婦を祝福せよ！",
+          "approx": false
+        },
+        {
+          "id": "0912-06",
+          "team": "all",
+          "time": "挙式後",
+          "title": "シャトルバスで披露宴会場へ",
+          "place": "",
+          "lat": null,
+          "lng": null,
+          "type": "move",
+          "note": ""
+        },
+        {
+          "id": "0912-07",
+          "team": "all",
+          "time": "16:00",
+          "title": "披露宴 受付開始",
+          "place": "ヴィラ・ノッツェ コルティーレ出雲",
+          "lat": 35.395,
+          "lng": 132.700,
+          "type": "reception",
+          "note": "出雲市浜町326。座標は概算・要確認",
+          "approx": true
+        },
+        {
+          "id": "0912-08",
+          "team": "all",
+          "time": "披露宴後",
+          "title": "シャトルバスで出雲駅へ",
+          "place": "",
+          "lat": null,
+          "lng": null,
+          "type": "move",
+          "note": ""
+        },
+        {
+          "id": "0912-09",
+          "team": "all",
+          "time": "－",
+          "title": "ドーミーイン出雲 チェックイン",
+          "place": "ドーミーイン出雲",
+          "lat": 35.3697,
+          "lng": 132.7565,
+          "type": "hotel",
+          "note": "座標は概算",
+          "approx": true
+        },
+        {
+          "id": "0912-10",
+          "team": "all",
+          "time": "21:00",
+          "title": "二次会",
+          "place": "あざまる水産 出雲駅付近",
+          "lat": 35.368,
+          "lng": 132.759,
+          "type": "afterparty",
+          "note": "座標は概算・要確認",
+          "approx": true
+        },
+        {
+          "id": "0912-11",
+          "team": "all",
+          "time": "二次会後",
+          "title": "ホテルへ",
+          "place": "ドーミーイン出雲",
+          "lat": 35.3697,
+          "lng": 132.7565,
+          "type": "move",
+          "note": "",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "id": "0913",
+      "date": "2026-09-13",
+      "weekday": "日",
+      "label": "9/13（日）直帰班／滞在班",
+      "shortLabel": "9/13 分岐日",
+      "teams": ["direct_return", "staying"],
+      "events": [
+        {
+          "id": "0913-dr-01",
+          "team": "direct_return",
+          "time": "終日",
+          "title": "出雲市近辺で少し観光",
+          "place": "未定（観光候補地から選択）",
+          "lat": 35.4018,
+          "lng": 132.6853,
+          "type": "sightseeing",
+          "note": "直帰班：福住隼平・大田尚人・越智魁人。観光先未定",
+          "approx": true,
+          "tbd": true
+        },
+        {
+          "id": "0913-dr-02",
+          "team": "direct_return",
+          "time": "夕方",
+          "title": "レンタカーで大洲へ直帰",
+          "place": "大洲市",
+          "lat": 33.5058,
+          "lng": 132.5442,
+          "type": "arrival",
+          "note": "座標は概算",
+          "approx": true
+        },
+        {
+          "id": "0913-st-01",
+          "team": "staying",
+          "time": "終日",
+          "title": "島根・鳥取観光（候補地は観光候補地レイヤー参照）",
+          "place": "未定",
+          "lat": 35.4433,
+          "lng": 132.9930,
+          "type": "sightseeing",
+          "note": "滞在班：須内達也・濱口貴史・びんとろ・三好飛鳥。島根・鳥取方面を観光しながら移動",
+          "approx": true,
+          "tbd": true
+        },
+        {
+          "id": "0913-st-02",
+          "team": "staying",
+          "time": "17:00",
+          "title": "「風の倉吉」チェックイン",
+          "place": "風の倉吉（鳥取県倉吉市河原町1969）",
+          "lat": 35.429204,
+          "lng": 133.812526,
+          "type": "hotel",
+          "note": "",
+          "approx": false
+        },
+        {
+          "id": "0913-st-03",
+          "team": "staying",
+          "time": "18:00",
+          "title": "晩飯",
+          "place": "倉吉市内",
+          "lat": 35.4292,
+          "lng": 133.8125,
+          "type": "meal",
+          "note": "店舗未定",
+          "approx": true
+        },
+        {
+          "id": "0913-st-04",
+          "team": "staying",
+          "time": "21:20",
+          "title": "須内達也 倉吉駅にて解散",
+          "place": "倉吉駅",
+          "lat": 35.4306,
+          "lng": 133.8322,
+          "type": "dismiss",
+          "note": "仕事のため須内達也のみ単独帰宅。座標は概算",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "id": "0914",
+      "date": "2026-09-14",
+      "weekday": "月",
+      "label": "9/14（月）滞在班のみ",
+      "shortLabel": "9/14 帰路",
+      "teams": ["staying"],
+      "events": [
+        {
+          "id": "0914-st-01",
+          "team": "staying",
+          "time": "午前",
+          "title": "少し観光",
+          "place": "未定（観光候補地から選択）",
+          "lat": 35.4622,
+          "lng": 133.1533,
+          "type": "sightseeing",
+          "note": "行き先未定",
+          "approx": true,
+          "tbd": true
+        },
+        {
+          "id": "0914-st-02",
+          "team": "staying",
+          "time": "お昼前",
+          "title": "帰路へ出発",
+          "place": "",
+          "lat": null,
+          "lng": null,
+          "type": "move",
+          "note": ""
+        },
+        {
+          "id": "0914-st-03",
+          "team": "staying",
+          "time": "17:00",
+          "title": "大洲着・レンタカー返却",
+          "place": "大洲市",
+          "lat": 33.5058,
+          "lng": 132.5442,
+          "type": "arrival",
+          "note": "座標は概算",
+          "approx": true
+        }
+      ]
+    }
+  ]
+}
